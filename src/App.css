@@ -1,38 +1,32 @@
-.App {
+.logo {
+  width: 100vw;
+  height: 15vh;
   text-align: center;
+  background-color: #e5eafe;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+ion-icon {
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fb ion-icon{
+  color: #3b5998;
+  
+}
+.twitter ion-icon{
+  color: #00acee;
+ 
+}
+.youtube ion-icon {
+  color: #c4302b;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+hr {
+  margin: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
